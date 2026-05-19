@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build and package artifacts
+build/
+dist/
+*.egg-info/
+
+# Local scratch/output folders
+tmp/
+temp/
+output/
+outputs/
+/samchuk-ulas-oleksiyovych-volyn.docx
