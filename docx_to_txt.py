@@ -16,5 +16,4 @@ result = "\n\n".join(paragraphs)
 
 txt_path.write_text(result, encoding="utf-8")
 
-print(f"Готово. Збережено у {txt_path}")
-print(f"Кількість символів: {len(result)}")
+print(f"{len(result)}")
